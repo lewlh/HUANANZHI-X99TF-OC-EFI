@@ -102,3 +102,5 @@ Mac Pro7,1 需要自定义内存，博主使用 DDR3 ECC 1866Hz 内存，三根�
 + [osx-goodies](https://github.com/dukzcry/osx-goodies)
 + [10.15.5黑苹果上SAS氦气硬盘手记（附控制卡驱动)](https://post.smzdm.com/p/ag87gxk3/)
 + [黑苹果系统(MacOS)之网卡篇](https://juejin.cn/post/7324980656994484258)
++ ![](/sources/华南金牌主板诊断卡代码.jpg "华南金牌主板诊断卡代码")
++ ![](/sources/华南金牌主板诊断吗问题汇总.png "华南金牌主板诊断吗问题汇总")
