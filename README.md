@@ -81,10 +81,12 @@ Mac Pro7,1 需要自定义内存，博主使用 DDR3 ECC 1866Hz 内存，三根�
 目前遗留的问题有两个：
 
 + SASMegaRAID.kext 无法驱动浪潮2308 6G直通卡IT模式, SAS 硬盘无法识别。在系统信息里面找不到这个 Raid 卡的信息，但是在 Hackintool 中能看到 Raid 卡的信息。
-+ 系统进入休眠状态后，无法重新唤醒，需要强行关机后，才能重新正常启动。
++ ~~系统进入休眠状态后，无法重新唤醒，需要强行关机后，才能重新正常启动。~~
 
 ## ChangeLogs
 
++ 20250118
+  + 删除`SSDT-CPUM.aml`解决系统进入休眠状态后，无法重新唤醒的问题;
 + 20250110
   + 升级 OpenCore 0.9.1 -> 1.0.3;
     + WhateverGreen.kext 使用官方版本;
@@ -102,5 +104,5 @@ Mac Pro7,1 需要自定义内存，博主使用 DDR3 ECC 1866Hz 内存，三根�
 + [osx-goodies](https://github.com/dukzcry/osx-goodies)
 + [10.15.5黑苹果上SAS氦气硬盘手记（附控制卡驱动)](https://post.smzdm.com/p/ag87gxk3/)
 + [黑苹果系统(MacOS)之网卡篇](https://juejin.cn/post/7324980656994484258)
-+ ![](/sources/华南金牌主板诊断卡代码.jpg "华南金牌主板诊断卡代码")
-+ ![](/sources/华南金牌主板诊断吗问题汇总.png "华南金牌主板诊断吗问题汇总")
++ ![华南金牌主板诊断卡代码](/sources/华南金牌主板诊断卡代码.jpg)
++ ![华南金牌主板诊断吗问题汇总](/sources/华南金牌主板诊断吗问题汇总.png)
