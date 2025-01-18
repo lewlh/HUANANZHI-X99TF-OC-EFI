@@ -44,15 +44,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-UIAC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-CPUM.aml</string>
+                    <string>DSDT-HUANANZHI.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -60,7 +52,15 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-USBX.aml</string>
+                    <string>SSDT-UIAC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-CPUM.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -548,7 +548,7 @@
                     <key>device_type</key>
                     <string>Audio Controller</string>
                     <key>layout-id</key>
-                    <data>BwAAAA==</data>
+                    <data>AQAAAA==</data>
                     <key>model</key>
                     <string>C610/X99 series chipset HD Audio Controller</string>
                     <key>name</key>
