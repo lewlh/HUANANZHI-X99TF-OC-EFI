@@ -60,7 +60,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-CPUM.aml</string>
+                    <string>SSDT-USBX.aml</string>
                 </dict>
             </array>
             <key>Delete</key>

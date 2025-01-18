@@ -62,6 +62,14 @@
                     <key>Path</key>
                     <string>SSDT-CPUM.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -794,78 +802,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SASMegaRAID</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportBrcmFixup.kext</string>
-                    <key>Comment</key>
-                    <string>V2.1.9</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportBrcmFixup</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BlueToolFixup.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.9</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BlueToolFixup</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BrcmFirmwareData.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.9</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmFirmwareData</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BrcmPatchRAM3.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.9</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
